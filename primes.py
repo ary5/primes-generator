@@ -1,6 +1,6 @@
 import time
 primes = [2]
-n = int(input("Enter number"))
+n = int(input("Enter the upper range for which to find primes for"))
 tic = time.perf_counter()
 counter=0
 for x in range(3, n+1):
